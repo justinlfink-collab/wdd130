@@ -73,7 +73,7 @@ header nav a:hover {
 
 header nav a.active {
     background-color: var(--secondary-color);
-    color: #000;
+    color: #ffffff;
 }
 
 .hero {
@@ -159,20 +159,14 @@ header nav a.active {
     padding: 16px;
     background-color: #ffffff;
     border-radius: 8px;
-}
-
-.adventures h2 {
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-.adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 14px;
 }
 
 .adventures h2 {
+    text-align: center;
+    margin-bottom: 16px;
     grid-column: 1 / -1;
 }
 
